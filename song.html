@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ZION KIDS </title>
+	<link rel = "icon" href = 
+	"logo.png" 
+			type = "image/x-icon">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".hamburger").click(function(){
+			  $(".wrapper").toggleClass("active")
+			})
+		});
+	</script>
+	<style>
+		.accordion {
+		  background-color: rgb(148, 131, 243);
+		  color: #444;
+		  cursor: pointer;
+		  padding: 18px;
+		  width: 100%;
+		  border: none;
+		  text-align: left;
+		  outline: none;
+		  font-size: 15px;
+		  transition: 0.4s;
+		}
+		
+		.active, .accordion:hover {
+		  background-color: white; 
+		}
+		
+		
+		.panel {
+		  padding: 0 18px;
+		  display: none;
+		  background-color: rgb(214, 159, 88);
+		  font-family: 'Yanone Kaffeesatz', sans-serif;
+		  font-weight: bolder;
+		  overflow: hidden;
+		  font-style: italic;
+		  font-variant-ligatures: common-ligatures;
+		  font-size:40px;
+		}
+		</style>
+</head>
+<body>
+
+<div class="wrapper">
+
+	<div class="top_navbar">
+		<div class="logo">
+			<a href="#">ZION KIDS</a>
+		</div>
+		<div class="top_menu">
+			<div class="home_link">
+				<a href="#">
+					<span class="icon"><i class="fas fa-home"></i></span>
+					<span>Home</span>
+				</a>
+			</div>
+			<div class="right_info">
+				<div class="icon_wrap">
+					<div class="icon">
+						<i class="fas fa-bell"></i>
+					</div>
+				</div>
+				<div class="icon_wrap">
+					<div class="icon">
+						<i class="fas fa-cog"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="main_body">
+		
+		<div class="sidebar_menu">
+	        <div class="inner__sidebar_menu">
+	        	
+	        	<ul>
+		          <li>
+		            <a href="index.html" >
+		              <span class="icon">
+		              	<i class="fas fa-border-all"></i></span>
+		              <span class="list">Dashboard</span>
+		            </a>
+		          </li>
+		          <li>
+		            <a href="song.html" class="active" >
+		              <span class="icon"><i class="fas fa-chart-pie"></i></span>
+		              <span class="list">Songs lyrics</span>
+		            </a>
+		          </li>
+		          <li>
+		            <a href="lessons.html">
+		              <span class="icon"><i class="fas fa-address-book"></i></span>
+		              <span class="list">Video Stories</span>
+		            </a>
+		          </li>
+		          <li>
+		            <a href="contact.html">
+		              <span class="icon"><i class="fas fa-address-card"></i></span>
+		              <span class="list">Quiz</span>
+		            </a>
+		          </li>
+		          <li>
+		            <a href="about.html">
+		              <span class="icon"><i class="fab fa-blogger"></i></span>
+		              <span class="list">About us</span>
+		            </a>
+		          </li>
+		          <li>
+					  <!---do it later-->
+
+
+		            <a href="#">
+		              <span class="icon"><i class="fas fa-map-marked-alt"></i></span>
+		              <span class="list">Maps</span>
+		            </a>
+		          </li>
+		        </ul>
+
+		        <div class="hamburger">
+			        <div class="inner_hamburger">
+			            <span class="arrow">
+			                <i class="fas fa-long-arrow-alt-left"></i>
+			                <i class="fas fa-long-arrow-alt-right"></i>
+			            </span>
+			        </div>
+			    </div>
+
+	        </div>
+	    </div>
+		
+		
+
+	    <div class="container">
+
+	    	<p>Get all sundays school songs</p>
+<!---gte all songs--><br>
+<input type="text" id="myInput"  onkeyup="myFunction()" placeholder=" Search for Songs you want...">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Song name</th>
+    
+  </tr>
+  <tr>
+    <td><button class="accordion">Naa Chinni Hrudayamlo Yesu Unnaadu నా చిన్ని హృదయంలో యేసు ఉన్నాడు
+		</button>
+		<div class="panel">
+		  <p>నా చిన్ని హృదయంలో యేసు ఉన్నాడు (4)<br>
+			తన ప్రేమనే మాకు చూపి<br>
+			తన వారసులుగా మము చేసెను<br>
+			నాలో సంతోషం నాలో ఉత్సాహం<br>
+			యేసయ్య నింపాడు (4)<br><br>
+		
+			Naa Chinni Hrudayamlo Yesu Unnaadu (4)<br>
+			Thana Premane Maaku Choopi<br>
+			Thana Vaarasulugaa Mamu Chesenu<br>
+			Naalo Santhosham Naalo Uthsaaham<br>
+			Yesayye Nimpaadu (4)<br><br>
+		
+			లాలించును నను పాలించును<br>
+			ఏ కీడు రాకుండా నను కాపాడును (2)<br>
+			తన అరచేతిలో నన్ను చెక్కుకొనెను<br>
+			ముదిమి వచ్చుఁవరకు నన్ను ఎత్తుకొనును ||నాలో||<br><br>
+		
+		
+			Laalinchunu Nanu Paalinchunu<br>
+			Ae Keedu Raakundaa Nanu Kaapaadunu (2)<br>
+			Thana Arachethilo Nannu Chekkukonenu<br>
+			Mudimi Vachchuvaraku Nannu Etthukonunu ||Naalo||<br><br>
+		
+		
+		
+			హత్తుకొనును నను ఓదార్చును<br>
+			ఎల్లప్పుడూ నాకు తోడుండును (2)<br>
+			అన్ని కష్టాలు నష్టాలు ఎదురొచ్చినా<br>
+			మన ప్రభు యేసుపై నీవు ఆనుకొనుము ||నాలో||<br><br>
+		
+		
+			Hatthukonunu Nanu Odaarchunu<br>
+			Ellappudu Naaku Thodundunu (2)<br>
+			Anni Kashtaalu Nashtaalu Edurochchinaa<br>
+			Mana Prabhu Yesupai Neevu Aanukonumu ||Naalo||<br><br></p>
+		</div></td>
+    
+  </tr>
+  <tr>
+    <td><button class="accordion">This little light of mine</button>
+		<div class="panel">
+		  <p>This little light of mine, I'm gonna let it shine.<br>
+			This little light of mine, I'm gonna let it shine.<br>
+			This little light of mine, I'm gonna let it shine.<br>
+			Let it shine, let it shine, let it shine!<br><br>
+		
+			Hide it under a bushel, NO! I'm gonna let it shine...<br>
+			All around the neighborhood, I'm gonna let it shine...<br>
+			Don't let Satan pfft- it out! I'm gonna let it shine...<br>
+			Let it shine 'til Jesus comes. I'm gonna let it shine...<br></p>
+		</div></td>
+    
+  </tr>
+  <tr>
+    <td><button class="accordion">The wise man built his house upon the rock</button>
+		<div class="panel">
+		  <p>The wise man built his house upon the rock,<br>
+			The wise man built his house upon the rock,<br>
+			The wise man built his house upon the rock,<br>
+			And the rains came tumbling down!<br><br>
+		
+		
+			The rains came down and the floods came up,<br>
+			The rains came down and the floods came up,<br>
+			The rains came down and the floods came up,<br>
+			And the house on the rock stood firm.<br><br>
+		
+			The foolish man built his house upon the sand,<br>
+			The foolish man built his house upon the sand,<br>
+			The foolish man built his house upon the sand,<br>
+			And the rains came tumbling down!<br><br>
+		
+			The rains came down and the floods came up,<br>
+			The rains came down and the floods came up,<br>
+			The rains came down and the floods came up,<br>
+			And the house on the sand went SPLAT!<br><br>
+
+			So build your house on the Lord Jesus Christ,<br>
+So build your house on the Lord Jesus Christ,<br>
+Build your house on the Lord Jesus Christ<br>
+and the Blessings will come down.<br><br>
+
+The blessings will come down as your prayers go up,<br>
+The blessings will come down as your prayers go up,<br>
+Sunday School Songs: Lyrics and Tunes
+
+
+<!---
+	
+	
+	
+	The B-I-B-L-E
+
+Oh! The B-I-B-L-E,
+Yes that's the book for me.
+I stand alone on the word of God,
+the B-I-B-L-E!
+
+The B-I-B-L-E
+I'll take it along with me,
+I'll read and pray,
+and then obey,
+the B-I-B-L-E.
+
+By F-A-I-T-H,
+I'm S-A-V-E-D,
+I'll stand alone
+on the word of God,
+The B-I-B-L-E.
+
+The B-L-O-O-D
+That Jesus shed for me
+Cleansed me from sin,
+I belong to him,
+The B-L-O-O-D
+
+
+I've got the joy
+
+I've got the joy, joy, joy, joy down in my heart, (where?)
+down in my heart, (where?), down in my heart,
+I've got the joy, joy, joy, joy down in my heart, (where?) down in my heart to stay.
+Chorus:
+And I'm so happy, so very happy.  I've got the love of Jesus in my heart.  And I'm so happy, so very happy.  I've got the love of Jesus in my heart
+
+Additional Verses:
+I've got the peace that passes understanding down in my heart
+I've got the love of Jesus, love of Jesus, down in my heart
+I've got the wonderful love of my blessed redeemer way down in the depths of my heart
+
+
+
+
+He's Got the Whole World in His Hands**
+
+He's got the whole world in His hands, He's got the whole world in His hands,
+He's got the whole world in His hands, He's got the whole world in His hands!
+He's got the itty, bitty, baby in His hands
+He's got momma and papa
+He's got you and me, sister, in His hands
+
+CD3538X-3: He&amp;quot;s Got The Whole World In His Hands (Children Vocal) [Music Download]He's Got The Whole World In His Hands (Children Vocal) [Music Download]
+By Twin Sisters Productions
+Free online preview - download wma file immediately.
+From CBD. Back to Top
+Father Abraham Had Many Sons
+
+Father Abraham, had many sons,
+Many sons had Father Abraham, I am one of them, and so are you,
+So let's all praise the Lord! (right hand, left hand, right foot, left foot)
+
+Sunday School song sound file 80k Windows Media Video (entire song)
+
+
+CD3538X-11: Father Abraham [Music Download]Father Abraham [Music Download]
+By Twin Sisters Productions
+Free online preview - download file immediately.
+From CBD.
+Back to Top
+
+The wise man built his house upon the rock
+
+The wise man built his house upon the rock,
+The wise man built his house upon the rock,
+The wise man built his house upon the rock,
+And the rains came tumbling down!
+
+The rains came down and the floods came up,
+The rains came down and the floods came up,
+The rains came down and the floods came up,
+And the house on the rock stood firm.
+
+The foolish man built his house upon the sand,
+The foolish man built his house upon the sand,
+The foolish man built his house upon the sand,
+And the rains came tumbling down!
+
+The rains came down and the floods came up,
+The rains came down and the floods came up,
+The rains came down and the floods came up,
+And the house on the sand went SPLAT!
+
+So build your house on the Lord Jesus Christ,
+So build your house on the Lord Jesus Christ,
+Build your house on the Lord Jesus Christ
+and the Blessings will come down.
+
+The blessings will come down as your prayers go up,
+The blessings will come down as your prayers go up,
+
+ --->
+
+The blessings will come down as your prayers go up,<br>
+So build your house on the Lord!<br><br>
+		</p>
+		</div></td>
+    
+  </tr>
+  <tr>
+    <td><button class="accordion">I am A C-H-R-I-S-T-I-A-N</button>
+		<div class="panel">
+		  <p>I am a C <br>
+			I am a C-H<br>
+			I am a C-H-R-I-S-T-I-A-N<br>
+			And I have C-H-R-I-S-T<br>
+			In my H-E-A-R-T<br>
+			And I will L-I-V-E<br>
+			E-T-E-R-N-A-L-L-Y!<br>
+		  </p>
+		</div></td>
+
+  </tr>
+  <td><button class="accordion">Jump Jump Jump
+	Into the light light light
+	</button>
+	<div class="panel">
+	  <p>Jump Jump Jump<br>
+		Into the light light light<br>
+		
+		Run run run away<br>
+		From what's not right<br><br>
+		
+		Jump jump jump<br>
+		Out of the dark dark dark<br>
+		
+		Run to Jesus<br>
+		And give Him your Heart<br><br>
+	
+		He is the light (2)<br>
+		
+		He is the light the light<br><br>
+		
+		
+		Jump Jump Jump<br>
+Into the light light light<br>
+
+Run run run away<br>
+From what's not right<br><br>
+
+Jump jump jump<br>
+Out of the dark dark dark<br>
+
+Run to Jesus<br>
+And give Him your Heart<br><br>
+
+You are the light (2)<br>
+
+
+You are the light the light.<br><br>
+Jump Jump Jump<br>
+Into the light light light<br>
+
+Run run run away<br>
+From what's not right<br><br>
+
+Jump jump jump<br>
+Out of the dark dark dark<br>
+
+Run to Jesus<br>
+And give Him your Heart<br><br>
+	</p>
+	</div></td>
+
+</tr>
+<tr>
+<td><button class="accordion">బలము లేని చిట్టి చీమలు</button>
+	<div class="panel">
+	  <p>బలము లేని చిట్టి చీమలు <br>
+		Left right left బుద్ది లిగి నడుచుకొనెను<br>
+		Wow Wow Wow <br><br>
+		నాయకుడు ఎవ్వరు లేకుండానూ<br>
+		Left Right Left 
+		 గ్యానంతో నడుచుకొనెను<br>
+		 Wow Wow Wow <br><br>
+
+		 Queue కట్టి పనికి నడుం కట్టి-<br>
+-ఆహరం నేతే నా పెట్టి కూడా పెటెను (2)<br>
+వేసవికాలం,కోత కాలం కూడఁచుకొనెను<br>
+సీత కలం కష్ట కాలం హాయిగా బ్రతీకను<br>
+చకం చకం చకం,చకం చకం చకం (4)<br><br>
+
+
+గురు పెట్టి నిదుర పోయే సోమరి మేలుకో-<br>
+-చీమల వదకేలి బ్రతుకుట నేర్చికో(2)<br><br>
+చకం చకం చకం,చకం చకం చకం (3) <br><br>
+
+
+		</p>
+	</div></td>
+
+</tr>
+<tr>
+<td><button class="accordion">Kodi Koosthu Undi</button>
+	<div class="panel">
+	  <p>Kodi Koosthu Undi<br>
+		Thella Vaaruthundi<br>
+		Sunday school kee<br>
+		veldaamu raarandi<br><br>
+
+
+		Mokhamu shubram chesukoni<br>
+Powder baaga raasukoni<br>
+Rangu rangu battalu vesukoni<br><br>
+Thwaraga Devuni sannidhiki<br>
+Bible chethulo pattukoni<br>
+Mummy daddy ki tata cheppi velli vasdaam<br><br>
+
+
+Mummy tata ... daddy tata ... -<br>
+-Mummy bye-bye ... daddy bye-bye (2)<br><br>
+</p>
+	</div></td>
+
+</tr>
+<td><button class="accordion">manu</button>
+	<div class="panel">
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div></td>
+
+</tr>
+<tr>
+<td><button class="accordion">Tali Bajayenge Nachenge</button>
+	<div class="panel">
+	  <p>Tali Bajayenge Nachenge<br>
+		Apne Ishwar Ke Liye - (2)<br><br>
+		
+		Bade Bade Kaam Usne Kiya - (2)<br><br>
+		
+		Tali Bajayenge Nachenge<br>
+		Apne Ishwar Ke Liye (2)<br><br>
+
+		Bade Bade Kaam Usne Kiya (2)<br>
+
+Tali Bajayenge Nachenge-<br>
+-Apne Ishwar Ke Liye (2)<br>
+
+Dar Dar O O Dar Dar<br>
+Dar Dar Kapne Laga<br>
+Shaitan O O Shaitan <br>
+Yeshu Ke Naam Se - (2)<br><br>
+
+		</p>
+	</div></td>
+
+</tr>
+<tr>
+<td><button class="accordion">There were 12 disciples </button>
+	<div class="panel">
+	  <p>There were 12 disciples Jesus called to help Him.<br>
+		Simon Peter, Andrew, James, his brother John, Philip,<br>
+		Thomas, Mathew, James the son of Alphaeus, Thaddeus, Simon,<br>
+		Judas and Bartholomew.<br><br> 
+
+		He has called us too.<br>
+He has called us too.<br>
+We are His disciples,<br>
+I am one and you.<br><br>
+
+He has called us too.<br>
+He has called us too.<br>
+We are His disciples,<br>
+We His work must do.
+<br><br>
+
+		</p>
+	</div></td>
+
+</tr>
+<td><button class="accordion">ఆ ఆ అంటూ అందరూ  వచ్చేయండి</button>
+	<div class="panel">
+	  <p>ఆ ఆ అంటూ అందరూ  వచ్చేయండి<br>
+		ఈ ఈ అంటూ ఇక్కడా బండి ఎక్కండి<br>
+		కు కు తో ఊఉ ఊఉ కలిపి కూ పెట్టండి<br>
+		ఏఏ ఐ అరచి  ఓ ఓ ఆవ్ చెప్పండి <br>
+		యెస్సాయ తో మనము సాగాలి అంటే ఎక్కాలిఈ బండి నే<br><br>
+		
+		కు కు చుకు చుకు చుకు చుకు రక్షణ బండి <br>
+		కు కు hallelujah<br>
+		కు కు చుకు చుకు చుకు చుకు రక్షణ బండి <br>
+		కు కు hallelujah<br>
+		కు కు చుకు చుకు చుకు చుకు రక్షణ బండి <br>
+		కు కు hallelujah<br><br>
+		
+	</p>
+	</div></td>
+
+</tr>
+<tr>
+<td><button class="accordion">లోకరీతిగా ఇల నాలో ఉన్న చేతలు</button>
+	<div class="panel">
+	  <p>లోకరీతిగా ఇల నాలో ఉన్న చేతలు<br>
+		లోలోపల దాగిన నాలో చెడు నడతలు - 2<br>
+		నా ప్రతిరోజు - పీడించేటి శోధనై<br>
+		నన్ను ఈరోజు - పూర్తి చెడ్డగా చేసే<br>
+		నాకున్న మోజు ఆడించేటి వేదనై<br>
+		నాలోని ఫోజు నన్ను పాపిగా మార్చే<br><br>
+
+		ఆన్ మాస్క్-2-తొలగిస్తాను ముసుగును<br>
+            మాస్క్-2-తీసేస్తాను చెడ్డను<br>
+ఆన్ మాస్క్-2-పాపపు బుద్ధిని వీడుంతా<br>
+ఆన్ మాస్క్-2-ప్రభు బిడ్డగా మారుతా<br><br>
+
+		</p>
+	</div></td>
+
+</tr>
+<tr>
+<td><button class="accordion">మలినపు హృదయము వాడనయా
+</button>
+	<div class="panel">
+	  <p>మలినపు హృదయము వాడనయా<br>
+		కుటిలపు చూపుల వాడనయా<br>
+		పనికిమాలిన జీవిగ నేను నిన్ను చేరలేనయ్యా<br>
+		బల్లె బల్లె బల్లె బల్లె యేసయ్యా-పరిశుద్ధుడవు నీవయ్యా<br>
+		బల్లె బల్లె బల్లె<br>
+		బల్లె యేసయ్యా - నను శుద్ధునిగా మార్చవయ్యా<br><br>
+	
+	
+		కుష్టురోగినైనా గాని శుద్ధి చేసినావయా<br>
+		నా హృదయ వ్యాధి తీసివేయయా<br>
+		పుట్టుగ్రుడ్డివానికి సహితం చూపునిచ్చినావయా<br>
+		నా గ్రుడ్డితనము తీసివేయయా<br>
+		నా హృదయమునిండా నీవే - నా చూపులనిండుగ నీవే<br>
+		పరిశుద్ధుడనిన్నే శ్రద్దగ కొలిచి శుద్దిగ జీవిస్తా ||<br><br>
+		</p>
+	</div></td>
+
+</tr>
+<td><button class="accordion">పరిచర్యే నాకెంతో ఇష్టం</button>
+	<div class="panel">
+	  <p>పరిచర్యే నాకెంతో ఇష్టం<br>
+		యేసయ్యే నా స్వంత నేస్తం-2<br>
+		స్వార్ధం ముసుగు వీడిపోయే<br>
+		సహాయం మనసు వెల్లువాయే-2<br><br>
+		
+
+		వేకువచుక్క - నేనీలా వెలిగెద<br>
+పేదలయెడ - సహాయపడెద<br>
+లాజరు కడ - ఆ ధనికుని పోలిక<br>
+నేనుండను - నా విధి ఇది గా<br><br>
+
+
+ఇదే ఇదే నా తీర్మానం<br>
+ప్రభు కృపే నా సన్మానం<br>
+నాకేమిలేదు అనుమానం-యేసుకే వందనం.-(2)<br><br>
+
+		</p>
+	</div></td>
+
+</tr>
+<tr>
+<td><button class="accordion">ఓ పిల్లలు త్వరగా రారండీ</button>
+	<div class="panel">
+	  <p>లా లలలా - లాలా లాలలా-2<br>
+		ఓ పిల్లలు త్వరగా రారండీ<br>
+		నాతో ఇది కలసి పాడండి<br>
+		ముసుగే తొలగిపోయే విబీఎస్సిదండీ-2<br><br>
+
+		టూ థెజెండ్ నైన్టీ లో-ఎఫెస్సీ ఫోర్త్ ఛాప్టర్లో<br>
+ట్వంటీటూ నుండి-ట్వంటీ ఫోరులో-2<br>
+ఆన్ మాస్క్-2-ముసుగు తొలగించు<br>
+ఈ పాటతోనే-ముసుగే తొలగును<br><br>
+లాలా లాలలా
+
+
+		</p>
+	</div></td>
+
+</tr>
+<tr>
+<td><button class="accordion">ఆవగింజ అంత విశ్వాసం</button>
+	<div class="panel">
+	  <p>ఆవగింజ అంత విశ్వాసం నీలో ఉన్నదా<br>
+		కొండవెళ్ళి సీలో పడమంటే ఓకే అంటది<br>
+		నీవే నమ్మానంటే ఎన్నో చేసేయొచ్చు<br>
+		యేసూ నీతో ఉంటే అన్నీ సాధ్యమే<br><br>
+		
+		తీసేయ్ అవిశ్వాసం నాలా విశ్వాసవ్వు<br>
+డే వన్ లేసన్నిదే నీవూ చేర్చుకో<br>
+(అయ్యో) తో మామగారు<br>
+మీరు నమ్మలేదు - యేసును మేము    నమ్మినంతగా<br><br>
+
+		</p>
+	</div></td>
+
+</tr>
+<td><button class="accordion">Head and shoulder knees and toes-3
+</button>
+	<div class="panel">
+	  <p>Head and shoulder knees and toes-3<br>
+		All belongs to Jesus<br>
+		Toes knees and shoulder head-3<br>
+		All belong to Jesus<br><br>
+		</p>
+	</div></td>
+
+</tr>
+<tr>
+<td><button class="accordion">Tell me who’s side</button>
+	<div class="panel">
+	  <p>Tell me who’s side ur leaning on<br>
+		Leaning on the Lord’s side<br><br>
+		Tell me who’s side ur leaning on<br>
+		Leaning on the Lord’s side<br><br>
+		I Lean,I Lean,I Lean,I Lean,I Lean <br>
+		I’am leaning on the Lord’s side<br><br>
+
+		Tell me who’s side ur singing on<br>
+		singing on the Lord’s side<br><br>
+		Tell me who’s side ur singing on<br>
+		singing on the Lord’s side<br><br>
+		I sing,I sing,I sing,I sing,I sing <br>
+		I’am singing on the Lord’s side<br><br>
+
+		Tell me who’s side ur shouting  on<br>
+		shouting on the Lord’s side<br><br>
+		Tell me who’s side ur shouting on<br>
+		shouting on the Lord’s side<br><br>
+		I shout,I shout,I shout,I shout,I shout <br>
+		I’am shouting on the Lord’s side<br><br>
+
+		Tell me who’s side ur wisping  on<br>
+		wisping on the Lord’s side<br><br>
+		Tell me who’s side ur wisping on<br>
+		wisping on the Lord’s side<br><br>
+		I wisp,I wisp,I wisp,I wisp,I wisp <br>
+		I’am wisping on the Lord’s side<br><br>
+
+		Tell me who’s side ur clapping  on<br>
+		clapping on the Lord’s side<br><br>
+		Tell me who’s side ur clapping on<br>
+		clapping on the Lord’s side<br><br>
+		I clap,I clap,I clap,I clap,I clap <br>
+		I’am clapping on the Lord’s side<br><br>
+
+		Tell me who’s side ur snapping  on<br>
+		snapping on the Lord’s side<br><br>
+		Tell me who’s side ur snapping on<br>
+		snapping on the Lord’s side<br><br>
+		I snap,I snap,I snap,I snap,I snap <br>
+		I’am snapping on the Lord’s side<br><br>
+
+		Tell me who’s side ur jumping  on<br>
+		jumping on the Lord’s side<br><br>
+		Tell me who’s side ur jumping on<br>
+		jumping on the Lord’s side<br><br>
+		I jump,I jump,I jump,I jump,I jump <br>
+		I’am jumping on the Lord’s side<br><br>
+
+		Tell me who’s side ur praying  on<br>
+		praying on the Lord’s side<br><br>
+		Tell me who’s side ur praying on<br>
+		praying on the Lord’s side<br><br>
+		I pray,I pray,I pray,I pray,I pray <br>
+		I’am praying on the Lord’s side<br><br>
+		</p>
+	</div></td>
+
+</tr>
+<tr>
+<td><button class="accordion">Srushti kramam,</button>
+	<div class="panel">
+	  <p>Srushti kramam,Oh Oh Srushti kramam-2<br>
+		Okatava rojuna velugu <br>
+		Rendava rojuna akasam <br>
+		Muudava rojuna arina neela mokalu vrukshalu-2<br><br>
+
+		Srushti kramam,Oh Oh Srushti kramam-2<br>
+Nalugava rojuna surya chandrulu <br>
+Ayedava rojuna chappalu prakshu lu <br>
+Aarava rojuna jantuvulu adamu lone avva <br><br>
+
+
+Srushti kramam,Oh Oh Srushti kramam-2<br>
+Nalugava rojuna surya chandrulu<br> 
+Ayedava rojuna chappalu prakshu lu <br>
+Aarava rojuna jantuvulu adamu lone avva <br><br>
+
+		</p>
+	</div></td>
+
+</tr>
+<td><button class="accordion">అమ్మో అమ్మో</button>
+	<div class="panel">
+	  <p>అమ్మో అమ్మో ఆశ్చర్యకరుడే<br>
+		అమ్మో అమ్మో అద్భుతకరుడే-2<br>
+		నోటి మాటతో చేసేస్తున్నాడే<br>
+		కనుసైగతో ఆపేస్తున్నాడే-2<br><br>
+
+		అమ్మో...ఆశ్చర్యం,అమ్మో... అద్భుతం <br>
+
+అమ్మో అమ్మో ఆశ్చర్యకరుడే<br>
+
+అమ్మో అమ్మో అద్బుతకరుడే-2<br><br>
+
+గాలి వాన చేత శిషులు బయపడుతుంటే<br>
+వాటిని గద్దించి నెమ్మదినిచ్చాడే<br>
+సేనా దయ్యముల చేత బ్రతుకు పాడవుతుంటే<br>
+వాటిని తరిమేసి క్రొత్త జీవితం ఇచ్చాడే<br><br>
+
+అమ్మో అమ్మో ఆశ్చర్యకరుడే<br>
+అమ్మో అమ్మో అద్బుతకరుడే-2<br>
+నోటి మాటతో చేసేస్తున్నాడే<br>
+కనుసైగతో ఆపేస్తున్నాడే-2<br><br>
+
+
+
+
+
+		</p>
+	</div></td>
+
+</tr>
+<tr>
+<td><button class="accordion">Every move I make, I make in you</button>
+	<div class="panel">
+	  <p> Every move I make, I make in you<br>
+		You make me move, (Jesus)<br>
+		Every breath I take I breath in you<br>
+		Every step I take, I take in you<br><br>
+
+
+		You are my way (Jesus)<br>
+		Every breath I take I breath in you<br>
+		Na, Na Na Na Na Na Na<br>
+		Na Na Na, Na Na Na Na Na Na<br><br>
+
+
+		Every move I make, I make in you<br>
+		You make me move, (Jesus)<br>
+		Every breath I take I breath in you<br>
+		Every step I take, I take in you<br>
+	You are my way (Jesus)<br>
+Every breath I take I breath in you<br><br>
+
+
+		Waves of mercy Waves of grace<br>
+		Everywhere I look I see your face<br>
+		Your love has captured me<br>
+		Oh my God, this love, how can it be?<br>
+		Na, Na Na Na Na Na Na<br>
+		Na Na Na, Na Na Na Na Na Na<br><br>
+
+
+		Every move I make, I make in you<br>
+		You make me move, (Jesus)<br>
+		Every breath I take I breath in you<br>
+		Every step I take, I take in you<br>
+		You are my way (Jesus)<br><br>
+
+
+		Every breath I take I breath in you<br>
+		Waves of mercy Waves of grace<br>
+		Everywhere I look I see your face<br>
+		Your love has captured me<br>
+		Oh my God, this love, how can it be?<br><br>
+
+
+		Na, Na Na Na Na Na Na<br>
+		Na Na Na, Na Na Na Na Na Na<br><br></p>
+	</div></td>
+
+</tr>
+<tr>
+<td><button class="accordion">Father Abraham had many sons</button>
+	<div class="panel">
+	  <p>Father Abraham had many children<br>
+		Many children had Father Abraham<br>
+		I am one of them and so are you<br>
+		So let's just praise the Lord
+		Right hand<br><br>
+	
+		Father children had many sons<br>
+		Many sons had Father children<br>
+		I am one of them and so are you<br>
+		So let's just praise the Lord<br>
+		Right hand, left hand<br><br>
+	
+		Father children had many sons<br>
+		Many children had Father Abraham<br>
+		I am one of them and so are you<br>
+		So let's just praise the Lord<br>
+		Right hand, left hand, right leg<br><br>
+	
+
+	
+	
+	
+		Father Abraham had many sons<br>
+		Many sons had Father Abraham<br>
+		I am one of them and so are you<br>
+		So let's just praise the Lord<br>
+		Right hand, left hand, right leg, left leg<br>
+		,shake your head<br><br>
+	
+		Father Abraham had many sons<br>
+		Many sons had Father Abraham<br>
+		I am one of them and so are you<br>
+		So let's just praise the Lord<br>
+		Right hand, left hand, right leg, left leg<br>
+		,shake your head, turn a around, <br><br>
+	
+		Father Abraham had many sons<br>
+		Many sons had Father Abraham<br>
+		I am one of them and so are you<br>
+		So let's just praise the Lord<br>
+		Right hand, left hand, right leg, left leg<br>
+		,shake your head, turn a around, sit down<br><br></p>
+	</div></td>
+
+</tr>
+<td><button class="accordion">Building up the Temple</button>
+	<div class="panel">
+	  <p>Building up the Temple<br>
+		Building up the temple,<br>
+		Building up the temple.<br>
+		Building up the temple of the Lord.<br><br>
+	
+	Boys come and help us<br>
+	Girls come and help us,<br>
+	Building up the temple of the Lord.<br><br>
+
+	</p>
+	</div></td>
+
+</tr>
+<tr>
+<td><button class="accordion">He's the one who makes the sun shine</button>
+	<div class="panel">
+	  <p>He's the one who makes the sun shine<br>
+		He's the one who that puts the moon in the sky<br>
+		He's the one who hung the stars<br>
+		One by one<br><br>
+	
+		He's the one who makes the birds sing<br>
+He's the one who makes your dreams so high<br>
+He's the one who makes me smile<br>
+Day by day<br><br>
+
+Jesus you're my superhero<br>
+You're my star, my best friend<br>
+Jesus you're my superhero<br>
+You're my star, my best friend<br><br>
+
+
+ye, ya ye, ya(3)<br>
+Better than Spiderman<br><br>
+
+ye, ya ye, ya(3)<br>
+Better than Superman<br><br>
+
+ye, ya ye, ya(3)<br>
+Better than Batman<br><br>
+
+ye, ya ye, ya(3)<br>
+Better than anyone<br><br>
+
+ye, ya ye, ya(3)<br>
+Better than Yu Gi Yo<br><br>
+
+ye, ya ye, ya(3)<br>
+Better than Barbie<br><br>
+
+ye, ya ye, ya(3)<br>
+Better than Action Man<br><br>
+
+ye, ya ye, ya(3)<br>
+Better than anyone<br><br>
+
+Jesus you're my superhero<br>
+You're my star, my best friend<br>
+Jesus you're my superhero<br>
+You're my star, my best friend<br><br>
+	</p>
+	</div></td>
+
+</tr>
+<tr>
+<td><button class="accordion">అదిగదిగో ఒక యుద్దం</button>
+	<div class="panel">
+	  <p>అదిగదిగో ఒక యుద్దం<br>
+		అరెరెరె ఆగేనే ఆ సైన్యం<br>
+		ఆర్బాటించెను ఆ జైంటు<br>
+		ఆయెను సౌలు సైన్యం ఫెయ్0టు<br><br>
+	
+		అడుగడుగో ఒక చిన్నోడు<br>
+		అరె దైవిక రోషం ఉన్నోడు<br>
+		చేతిలో ఒడిసెల పట్టాడు<br>
+		ఆ జైంట్ పకపక నవ్వాడు<br><br>
+	
+		హహహహహహ<br><br>
+
+		విసిరితె వడిసెల రాయీ<br>
+		కొట్టింది దేవుడెనోయీ (2)<br><br>
+		
+		గొల్యాతాయెను Zero<br>
+		దావీదే ఇక Hero (2)</p><br><br>
+	</div></td>
+
+</tr>
+<td><button class="accordion">AAO MILKE STUTHI KARENGE</button>
+	<div class="panel">
+	  <p>Aao Milke Sthuthi Karenge – Yeshu Ki Gungaan Karenge (X2)<br>
+		Aao Milke Sthuthi Karenge – Yeshu Ki Gungaan Karenge (X2)<br>
+		Woh Hi Raja, Woh Masiha – Mere Jeevan Ka Sahara (X2)<br>
+		Nachenge Gayenge, Dhoom Machadenge<br>
+		Yeshu Ki Gungaan Karenge(X2) || Aao Milke||<br><br>
+	
+		Jai Jai Bolo Jai – Yeshu Ki Jai (X10)<br>
+		Woh Hi Raja Woh Masiha – Mere Jeevan Ka Sahara<br>
+		Nachenge Gayenge, Dhoom Machadenge<br>
+		Yeshu Ki Gungaan Karenge (X5)<br></p>
+	</div></td>
+
+</tr>
+<tr>
+<td><button class="accordion">God Is Good All The Time</button>
+	<div class="panel">
+	  <p>God is good all the time<br>
+		He put a song of praise in this heart of mine<br>
+		God is good all the time<br>
+		Through the darkest night, His light will shine<br>
+		God is good, God is good all the time<br><br>
+	
+		If you're walking through the valley<br>
+		And there are shadows all around<br>
+		Do not fear, He will guide you<br>
+		He will keep you safe and sound<br>
+		'Cause He's promised to never leave you<br>
+		Nor forsake you and His Word is true<br><br>
+	
+		God is good all the time<br>
+		He put a song of praise in this heart of mine<br>
+		God is good all the time<br>
+		Through the darkest night, His light will shine<br>
+		God is good, God is good all the time<br><br>
+	
+		We were sinners - so unworthy<br>
+Still for us He chose to die<br>
+Filled us with His Holy Spirit<br>
+Now we can stand and testify<br>
+That His love is everlasting<br>
+And His mercies - they will never end<br><br>
+
+God is good all the time<br>
+He put a song of praise in this heart of mine<br>
+God is good all the time<br>
+Through the darkest night, His light will shine<br>
+God is good, God is good all the time<br><br>
+
+Lord I may not understand<br>
+All the plans He left for me<br>
+My life is in Your hands<br>
+And through the eyes of faith, I can clearly see<br>
+
+God is good all the time<br>
+He put a song of praise in this heart of mine<br>
+God is good all the time<br>
+Through the darkest night, His light will shine<br>
+God is good, God is good all the time<br><br>
+	</p>
+	</div></td>
+
+</tr>
+<tr>
+<td><button class="accordion">Milk Drink the milk</button>
+	<div class="panel">
+	  <p> Milk Drink the milk<br>
+		  Eat the word<br>
+		  And get stronger<br><br>
+
+Mr Postman sent to me (yea! Yea!)<br>
+A copy of the bible (yea! Yea!)<br>
+read the Bible o get stronger<br>
+I can't wait any fa-long-arrow-alt-left<br><br>
+
+Shubiduwap! shubiduwap! (yea! Yea!)<br><br>
+	  </p>
+	</div></td>
+	<tr>
+	<td><button class="accordion"> I've got the joy</button>
+		<div class="panel">
+		  <p> 
+
+			I've got the joy, joy, joy, joy down in my heart, (where?)<br>
+			down in my heart, (where?), down in my heart,<br>
+			I've got the joy, joy, joy, joy down in my heart, (where?) down in my heart to stay.<br>
+			
+			And I'm so happy, so very happy.  I've got the love of Jesus in my heart.  And I'm so happy, so very happy.  I've got the love of Jesus in my heart<br><br>
+			
+			
+			I've got the peace that passes understanding down in my heart<br>
+			I've got the love of Jesus, love of Jesus, down in my heart<br>
+			I've got the wonderful love of my blessed redeemer way down in the depths of my heart<br><br>
+			
+			
+		  </p>
+		</div></td>
+
+</tr>
+
+</tr>
+</tr>
+</table>
+
+<style>
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid rgb(241, 171, 171); /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  border: 1px solid rgb(245, 161, 161); /* Add a grey border */
+  font-size: 18px; /* Increase font-size */
+}
+
+#myTable th, #myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid rgb(238, 168, 168);
+}
+
+#myTable tr.header, #myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: rgb(159, 241, 159);
+  
+}
+</style>
+<!--get javascript here no props---->
+<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+	
+	for (i = 0; i < acc.length; i++) {
+	  acc[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var panel = this.nextElementSibling;
+		if (panel.style.display === "block") {
+		  panel.style.display = "none";
+		} else {
+		  panel.style.display = "block";
+		}
+	  });
+	}
+	</script>
+<script>
+	function myFunction() {
+	  // Declare variables
+	  var input, filter, table, tr, td, i, txtValue;
+	  input = document.getElementById("myInput");
+	  filter = input.value.toUpperCase();
+	  table = document.getElementById("myTable");
+	  tr = table.getElementsByTagName("tr");
+	
+	  // Loop through all table rows, and hide those who don't match the search query
+	  for (i = 0; i < tr.length; i++) {
+		td = tr[i].getElementsByTagName("td")[0];
+		if (td) {
+		  txtValue = td.textContent || td.innerText;
+		  if (txtValue.toUpperCase().indexOf(filter) > -1) {
+			tr[i].style.display = "";
+		  } else {
+			tr[i].style.display = "none";
+		  }
+		}
+	  }
+	}
+	</script>
+	    </div>
+	</div>
+</div>
+	
+
+</body>
+</html>

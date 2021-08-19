@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ZION KIDS </title>
+	<link rel = "icon" href = 
+	"logo.png" 
+			type = "image/x-icon">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".hamburger").click(function(){
+			  $(".wrapper").toggleClass("active")
+			})
+		});
+	</script>
+	<style>
+		.accordion {
+		  background-color: rgb(148, 131, 243);
+		  color: #444;
+		  cursor: pointer;
+		  padding: 18px;
+		  width: 100%;
+		  border: none;
+		  text-align: left;
+		  outline: none;
+		  font-size: 15px;
+		  transition: 0.4s;
+		}
+		
+		.active, .accordion:hover {
+		  background-color: white; 
+		}
+		
+		.panel {
+		  padding: 0 18px;
+		  display: none;
+		  background-color: rgb(214, 159, 88);
+		  font-family: 'Yanone Kaffeesatz', sans-serif;
+		  font-weight: bolder;
+		  overflow: hidden;
+		  font-style: italic;
+		  font-variant-ligatures: common-ligatures;
+		  font-size:40px;
+		}
+		</style>
+</head>
+<body>
+
+<div class="wrapper">
+
+	<div class="top_navbar">
+		<div class="logo">
+			<a href="#">ZION KIDS</a>
+		</div>
+		<div class="top_menu">
+			<div class="home_link">
+				<a href="#">
+					<span class="icon"><i class="fas fa-home"></i></span>
+					<span>Home</span>
+				</a>
+			</div>
+			<div class="right_info">
+				<div class="icon_wrap">
+					<div class="icon">
+						<i class="fas fa-bell"></i>
+					</div>
+				</div>
+				<div class="icon_wrap">
+					<div class="icon">
+						<i class="fas fa-cog"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="main_body">
+		
+		<div class="sidebar_menu">
+	        <div class="inner__sidebar_menu">
+	        	
+	        	<ul>
+		          <li>
+		            <a href="index.html" >
+		              <span class="icon">
+		              	<i class="fas fa-border-all"></i></span>
+		              <span class="list">Dashboard</span>
+		            </a>
+		          </li>
+		          <li>
+		            <a href="song.html" >
+		              <span class="icon"><i class="fas fa-chart-pie"></i></span>
+		              <span class="list">Songs lyrics</span>
+		            </a>
+		          </li>
+		          <li>
+		            <a href="lessons.html" >
+		              <span class="icon"><i class="fas fa-address-book"></i></span>
+		              <span class="list">Video Stories</span>
+		            </a>
+		          </li>
+		          <li>
+		            <a href="contact.html" class="active">
+		              <span class="icon"><i class="fas fa-address-card"></i></span>
+		              <span class="list">Quiz</span>
+		            </a>
+		          </li>
+		          <li>
+		            <a href="about.html" >
+		              <span class="icon"><i class="fab fa-blogger"></i></span>
+		              <span class="list">About us</span>
+		            </a>
+		          </li>
+		          <li><!---do it later-->
+		            <a href="#">
+		              <span class="icon"><i class="fas fa-map-marked-alt"></i></span>
+		              <span class="list">Maps</span>
+		            </a>
+		          </li>
+		        </ul>
+
+		        <div class="hamburger">
+			        <div class="inner_hamburger">
+			            <span class="arrow">
+			                <i class="fas fa-long-arrow-alt-left"></i>
+			                <i class="fas fa-long-arrow-alt-right"></i>
+			            </span>
+			        </div>
+			    </div>
+
+	        </div>
+	    </div>
+	
+	    <div class="container">
+	    	
+			<p>Get all Bible Quizes</p>
+			<!---gte all songs--><br>
+			<input type="text" id="myInput"  onkeyup="myFunction()" placeholder=" Search for Quizes you want...">
+			
+			<table id="myTable">
+			  <tr class="header">
+				<th style="width:60%;">Quiz name</th>
+				
+			  </tr>
+			  <tr>
+				<td><button class="accordion">Daniel
+					</button>
+					<div class="panel">
+						<iframe src="https://quizizz.com/join/quiz/5fb418643fde68001f1b6129/start" height="550" width="100%" title="Iframe Example"></iframe>
+					</div></td>
+					
+			  </tr>
+			  <tr>
+				<td><button class="accordion">The Creation</button>
+					<div class="panel">
+					
+						<iframe src="https://quizizz.com/join/quiz/5eaadff4dd9a58001b85632e/start" height="550" width="100%" title="Iframe Example"></iframe>
+					</div></td>
+				
+			  </tr>
+			  <tr>
+				<td><button class="accordion">Moses
+					</button>
+					<div class="panel">
+						<iframe src="https://quizizz.com/join/quiz/5ee2da29214c33001b5d3898/start" height="550" width="100%" title="Iframe Example"></iframe>
+					</div></td>
+					
+			  </tr>
+			  <tr>
+				<td><button class="accordion">Bible Characters</button>
+					<div class="panel">
+					
+						<iframe src="https://quizizz.com/join/quiz/5ff13109fc09e6001b20a9b8/start" height="550" width="100%" title="Iframe Example"></iframe>
+					</div></td>
+				
+			  </tr>
+			  <tr>
+				<td><button class="accordion">David</button>
+					<div class="panel">
+					
+						<iframe src="https://quizizz.com/join/quiz/5ede10a229fc19001b132517/start" height="550" width="100%" title="Iframe Example"></iframe>
+					</div></td>
+				
+			  </tr>
+			</table>
+			
+			<style>
+			
+			#myInput {
+			  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+			  background-position: 10px 12px; /* Position the search icon */
+			  background-repeat: no-repeat; /* Do not repeat the icon image */
+			  width: 100%; /* Full-width */
+			  font-size: 16px; /* Increase font-size */
+			  padding: 12px 20px 12px 40px; /* Add some padding */
+			  border: 1px solid rgb(241, 171, 171); /* Add a grey border */
+			  margin-bottom: 12px; /* Add some space below the input */
+			}
+			
+			#myTable {
+			  border-collapse: collapse; /* Collapse borders */
+			  width: 100%; /* Full-width */
+			  border: 1px solid rgb(245, 161, 161); /* Add a grey border */
+			  font-size: 18px; /* Increase font-size */
+			}
+			
+			#myTable th, #myTable td {
+			  text-align: left; /* Left-align text */
+			  padding: 12px; /* Add padding */
+			}
+			
+			#myTable tr {
+			  /* Add a bottom border to all table rows */
+			  border-bottom: 1px solid rgb(238, 168, 168);
+			}
+			
+			#myTable tr.header, #myTable tr:hover {
+			  /* Add a grey background color to the table header and on hover */
+			  background-color: rgb(159, 241, 159);
+			  
+			}
+			</style>
+			<!--get javascript here no props---->
+			<script>
+				var acc = document.getElementsByClassName("accordion");
+				var i;
+				
+				for (i = 0; i < acc.length; i++) {
+				  acc[i].addEventListener("click", function() {
+					this.classList.toggle("active");
+					var panel = this.nextElementSibling;
+					if (panel.style.display === "block") {
+					  panel.style.display = "none";
+					} else {
+					  panel.style.display = "block";
+					}
+				  });
+				}
+				</script>
+			<script>
+				function myFunction() {
+				  // Declare variables
+				  var input, filter, table, tr, td, i, txtValue;
+				  input = document.getElementById("myInput");
+				  filter = input.value.toUpperCase();
+				  table = document.getElementById("myTable");
+				  tr = table.getElementsByTagName("tr");
+				
+				  // Loop through all table rows, and hide those who don't match the search query
+				  for (i = 0; i < tr.length; i++) {
+					td = tr[i].getElementsByTagName("td")[0];
+					if (td) {
+					  txtValue = td.textContent || td.innerText;
+					  if (txtValue.toUpperCase().indexOf(filter) > -1) {
+						tr[i].style.display = "";
+					  } else {
+						tr[i].style.display = "none";
+					  }
+					}
+				  }
+				}
+				</script>
+					</div>
+				</div>
+			</div>
+				
+			
+
+
+
+	    </div>
+	</div>
+</div>
+	
+
+</body>
+</html>
