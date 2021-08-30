@@ -54,7 +54,7 @@
 	        	
 	        	<ul>
 		          <li>
-		            <a href="index.html" >
+		            <a href="index.html" class="active">
 		              <span class="icon">
 		              	<i class="fas fa-border-all"></i></span>
 		              <span class="list">Dashboard</span>
@@ -67,7 +67,7 @@
 		            </a>
 		          </li>
 		          <li>
-		            <a href="lessons.html" >
+		            <a href="lessons.html">
 		              <span class="icon"><i class="fas fa-address-book"></i></span>
 		              <span class="list">Video Stories</span>
 		            </a>
@@ -79,12 +79,16 @@
 		            </a>
 		          </li>
 		          <li>
-		            <a href="about.html" class="active">
+		            <a href="about.html">
 		              <span class="icon"><i class="fab fa-blogger"></i></span>
 		              <span class="list">About us</span>
 		            </a>
 		          </li>
-		          <li><!---do it later-->
+		          <li>
+
+					  <!---do it later-->
+
+
 		            <a href="#">
 		              <span class="icon"><i class="fas fa-map-marked-alt"></i></span>
 		              <span class="list">Maps</span>
@@ -103,53 +107,183 @@
 
 	        </div>
 	    </div>
-		<style>html {
-			height: 100%;
-			/* max-height: 600px; */
-			width: 1px;
-			background-color: hsla(200,40%,30%,.4);
-			background-image:		
-				url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), 
-				url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
-				url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
-				url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
-				url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
-			background-repeat: repeat-x;
-			background-position: 
-				0 20%,
-				0 100%,
-				0 50%,
-				0 100%,
-				0 0;
-			background-size: 
-				2500px,
-				800px,
-				500px 200px,
-				1000px,
-				400px 260px;
-			animation: 50s para infinite linear;
-			}
+
+		<!--https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4pycvMfEAp4GknB6hXnPnMmps9xGrkU9M7w&usqp=CAU-->
+	<!--https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/165341185/original/2d1012f79d1be47142e3c6b9dea8b60205a7d8f7/draw-an-nice-background-or-wallpaper-for-you-xp.png-->
+	<!--https://swall.teahub.io/photos/small/95-958090_minimalistic-simple-background-trees-white-background-nice-and.jpg-->
+	<style> 
+
+
+	body{
+
+		background: linear-gradient(-45deg, #ee7752, #d46590, #23a6d5,#23d5ab,rgb(122, 212, 122),orange);
+	background-size: 400% 400%;
+	width:100%;
+	height:800px;
+	animation: gradient 15s ease infinite;
+	}
+	
+		@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 60% 50%;
+	}
+	300% {
+		background-position: 90% 10%;
+	}
+	500% {
+		background-position: 30% 70%;
+	}
+	700% {
 		
-		@keyframes para {
-			100% {
-				background-position: 
-					-5000px 20%,
-					-800px 95%,
-					500px 50%,
-					1000px 100%,
-					400px 0;
-				}
-			}</style>
+		background-position: 80% 20%;
+	}
+}
+
+h1{
+	background-color: cornsilk;
+	color:crimson;
+	border: 3px outset blue;
+	border-radius: 20px;
+}
+img{
+background-color: rgba(219, 123, 123, 0.548);
+border-radius: 300px;
+align-items: center;
+align-self: center;
+text-align: center;
+margin:3px;
+cursor:zoom-in;	
+}			
+
+
+img:hover{
+	
+  transition: transform .1s; 
+  width: 315px;
+  height: 315px;
+  margin: 0 auto;
+}	
+
+
+
+.left-m{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+justify-content: space-between;
+	background-color: rgba(247, 246, 245, 0.356);
+	color:crimson;
+	margin-left:-30px;
+padding:20px;
+border-radius: 50px;
+border-top-right-radius: 0px;;
+border:4px outset black ;
+}
+
+.head{
+font-size: 40px;
+font-variant: small-caps;
+font-weight:bolder;
+text-decoration-line: underline;
+
+}
+.daily{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+justify-content: space-between;
+	background-color: rgba(21, 255, 0, 0.356);
+	color:crimson;
+font-size: 25px;
+font-weight: bolder;
+font-style: italic;
+padding:20px;
+border-radius: 50px;
+border-bottom-left-radius: 0px;
+border-top-right-radius: 0px;
+border:1px outset rgb(92, 89, 89) ;
+text-decoration-line:none;
+}
+
+.container{
+	display: flex;
+
+
+}
+big{
+color:rgb(0, 132, 255)
+
+}
+
+small{
+color:rgb(14, 92, 180)
+
+}
+
+.no{
+	background-color: rgba(219, 123, 123, 0.548);
+border-radius: 300px;
+align-items: center;
+align-self: center;
+text-align: center;
+margin:3px;
+cursor:zoom-in;	
+
+}
+
+.right{
+	display: flex;
+	flex-wrap: wrap;
+	padding:5px;
+	background-color: rgba(255, 255, 255, 0.267);
+    margin-right: -30px;
+	margin-left: 40px;
+justify-content: right;
+border-radius: 30px;
+border-top-left-radius: 0px;;
+border:4px outset black ;
+
+}
+			</style>
+			<div class="full">
 	    <div class="container">
-	    	<p>about</p>
+			
+	<!--    <h1>“Children are a gift from the Lord; they are a reward from him.” “Jesus said, 'Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these. ' ”27-Mar-2020
+		</h1>-->
+<div class="left-m">
+	<center>
+<img src="Screenshot_2021-08-19_110647-removebg-preview.png" margin="10px" width=" 300px" alt=""><br><br><br>
+<p><big>Rev: Samavedam elisha garu</big><br><small>Founder of Zion Ministries</small></p>
+</center>
 
-            <iframe width="100%" height="400" src="https://www.youtube.com/embed/XLwOHJuMLF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
+	<div class="right">
+
+		<center>
+		<p class="head">Daily Bread</p>
+	<br><br><br>
+<p class="daily">The LORD your God is with you, the Mighty Warrior who
+	 saves. He will take great delight in you; in his love he will no
+	  longer rebuke you, but will rejoice over you with singing.”</p>
+
+	</div>	
+
+
+</div>
+
+
+</div>
+
+  
 	    </div>
 	</div>
-</div>
-	
-
-</body>
+</div></body>
 </html>
